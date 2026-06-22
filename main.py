@@ -1,5 +1,3 @@
-from agents import Agent
-
 def main():
     pass
 
