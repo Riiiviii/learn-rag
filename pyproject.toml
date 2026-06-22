@@ -1,0 +1,16 @@
+[project]
+name = "learn-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=2.43.0",
+    "openai-agents>=0.17.6",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.1.0",
+    "ruff>=0.15.18",
+]
