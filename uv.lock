@@ -639,6 +639,7 @@ dependencies = [
     { name = "openai" },
     { name = "openai-agents" },
     { name = "sentence-transformers" },
+    { name = "weaviate" },
 ]
 
 [package.dev-dependencies]
@@ -652,6 +653,7 @@ requires-dist = [
     { name = "openai", specifier = ">=2.43.0" },
     { name = "openai-agents", specifier = ">=0.17.6" },
     { name = "sentence-transformers", specifier = ">=5.6.0" },
+    { name = "weaviate", specifier = ">=0.1.2" },
 ]
 
 [package.metadata.requires-dev]
@@ -2040,6 +2042,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c4/1f/fa18009dea8469069cca78a4e877a008ab78f08b064bfc9ab891579077ff/uvicorn-0.49.0.tar.gz", hash = "sha256:ebf4271aa580d9de97f93192d4595176df6e91f9aae919ca73e4fc07df1e66a3", size = 91284, upload-time = "2026-06-03T22:01:30.448Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/88/fa/e1388bbcf24ef3274f45c0c1c7b501fd14971037c1b6ee23610553307497/uvicorn-0.49.0-py3-none-any.whl", hash = "sha256:ba3d14c3ee7e41c6c654c46c9eb489d33213cdd30aa1696eab1374337c13f68f", size = 71376, upload-time = "2026-06-03T22:01:29.037Z" },
+]
+
+[[package]]
+name = "weaviate"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/61/6b/5d363c593d223f1772944f29b128ec3998c5485d3f36999936e1b3cc8ffa/weaviate-0.1.2.tar.gz", hash = "sha256:a381b8bb0eb236bd10256def8612953ed9024e6738b8a259e7ec11e626ae0665", size = 4110, upload-time = "2024-10-24T14:17:41.766Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/33/35/745561b577a0bf0ead3f53d24c01390e8bc9547b385f26cfcaccbe474e7e/weaviate-0.1.2-py3-none-any.whl", hash = "sha256:40f1c1cf0b769036315d2b6026c8cd823a3a6e951c90d4e70a001a770ba8a444", size = 2568, upload-time = "2024-10-24T14:17:40.314Z" },
 ]
 
 [[package]]
